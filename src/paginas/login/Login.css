@@ -1,15 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,600;0,700;1,100;1,200&family=Signika:wght@300..700&display=swap');
 body{
-    background: radial-gradient(white, #0f3f5d);
+    background: radial-gradient(#b7daea);
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;
 }
 
 .fundoLogin {
-    background-image: url(../../assets/img/Logo-Rede-ANCORA.png);
+    background-image: url(../../assets/img/pexels-conojeghuo-26681.jpg);
     background-repeat: no-repeat;
-    min-height: 80vh;
+    min-height: 100vh;
     width: 100%;
     background-size: cover;
     background-position: center;

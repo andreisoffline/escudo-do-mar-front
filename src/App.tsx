@@ -1,3 +1,4 @@
+// App.tsx
 import { useState } from 'react';
 import reactLogo from './assets/react.svg';
 import viteLogo from '/vite.svg';
@@ -16,18 +17,17 @@ import FormularioTema from './components/temas/formularioTema/FormularioTema';
 import DeletarTema from './components/temas/deletarTema/DeletarTema';
 import ListaPostagens from './components/postagens/listaPostagens/ListaPostagens';
 import FormularioPostagem from './components/postagens/formularioPostagem/FormularioPostagem';
-
 import Perfil from './paginas/perfil/Perfil';
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
+import Sobre from './paginas/sobre/Sobre'; // Importe o componente Sobre
 
 function App() {
-  
   return (
     <>
       <AuthProvider>
-      <ToastContainer />
+        <ToastContainer />
         <BrowserRouter>
-        <Navbar />
+          <Navbar />
           <div className='min-h-[80vh]'>
             <Routes>
               <Route path="/" element={<Login />} />
@@ -43,6 +43,7 @@ function App() {
               <Route path="/editarPostagem/:id" element={<FormularioPostagem />} />
               <Route path="/deletarPostagem/:id" element={<DeletarPostagem />} />
               <Route path="/perfil" element={<Perfil />} />
+              <Route path="/sobre" element={<Sobre />} /> {/* Adicione a rota para Sobre */}
             </Routes>
           </div>
           <Footer />

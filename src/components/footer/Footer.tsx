@@ -15,9 +15,9 @@ function Footer() {
   if(usuario.token !== '') {
     footerComponent = (
       <>
-        <div className="flex justify-center bg-[#85a0b0] text-custom-color-footer">
+        <div className="flex justify-center bg-[#377FB0] text-custom-color-footer">
           <div className="container flex flex-col items-center py-1">
-            <p className='text-xl font-bold'>Rede Ancora Event Hub | Copyright: {data}</p>
+            <p className='text-xl font-bold'>Escudo do Mar | Copyright: {data}</p>
             <p className='text-lg '>Acesse nossas redes sociais</p>
             <div className='flex gap-2'>
               <LinkedinLogo size={45} weight='bold' />

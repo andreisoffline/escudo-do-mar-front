@@ -2,16 +2,16 @@
 
 
 body{
-    background: gradient(white, #0f3f5d);
+    background: #B7DAEA;
     font-family: "Poppins", sans-serif;
     font-weight: 700;
     font-style: normal;   
 }
 
 .text-custom-color-h2 {
-    color: #0f3f5d; /* Cor hexadecimal desejada para o h2 */
+    color: #377FB0; /* Cor hexadecimal desejada para o h2 */
   }
   
   .text-custom-color-p {
-    color: #0f3f5d; /* Cor hexadecimal desejada para o p */
+    color: #377FB0; /* Cor hexadecimal desejada para o p */
   }
