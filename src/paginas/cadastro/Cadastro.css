@@ -1,0 +1,8 @@
+.fundoCadastro {
+    background-image: url(../../assets/img/Logo-Rede-ANCORA.png);
+      background-repeat: no-repeat;
+      width: 100%;
+      min-height: 80vh;
+      background-size: cover;
+      background-position: center;
+  }

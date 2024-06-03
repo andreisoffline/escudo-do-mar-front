@@ -1,0 +1,9 @@
+.popup-content {
+    border-radius: 1rem;
+    padding-bottom: 12rem;
+    border-bottom: 10px ;
+  }
+
+.hover-custom-color:hover {
+  background-color: #0f3f5d; /* Cor hexadecimal desejada */
+}
