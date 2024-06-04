@@ -65,15 +65,15 @@ function DeletarTema() {
     }
     return (
         <div className='container w-1/3 mx-auto'>
-            <h1 className='text-4xl text-center my-4'>Deletar tema</h1>
+            <h1 className='text-4xl text-center my-4'>Deletar cidade</h1>
 
-            <p className='text-center font-semibold mb-4'>Você tem certeza de que deseja apagar o tema a seguir?</p>
+            <p className='text-center font-semibold mb-4'>Você tem certeza de que deseja apagar a cidade a seguir?</p>
 
             <div className='border flex flex-col rounded-2xl overflow-hidden justify-between'>
-                <header className='py-2 px-6 bg-blue-600 text-white font-bold text-2xl'>Tema</header>
+                <header className='py-2 px-6 bg-gradient-to-r from-blue-500 to-blue-700 shadow-lg text-white font-bold text-2xl'>Cidade</header>
                 <p className='p-8 text-3xl bg-slate-200 h-full'>{tema.descricao}</p>
                 <div className="flex">
-                    <button className='text-slate-100 bg-blue-400 hover:bg-blue-600 w-full py-2' onClick={retornar}>Não</button>
+                    <button className='text-slate-100 bg-gradient-to-r from-blue-500 to-blue-700 shadow-lg w-full py-2' onClick={retornar}>Não</button>
                     <button className='w-full text-slate-100 bg-red-400 hover:bg-red-600 flex items-center justify-center' onClick={deletarTema}>
                         Sim
                     </button>
