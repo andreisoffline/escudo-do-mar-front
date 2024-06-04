@@ -14,12 +14,8 @@ const Sobre: React.FC = () => {
           <p className='text-xl text-custom-color-p text-justify'>
             Pensando nisso, apresentamos a Escudo do Mar, uma plataforma centralizada para denunciar e monitorar a presença de lixo em nosso litoral. O projeto é alinhado com o Objetivo de Desenvolvimento Sustentável (ODS) 14 das Nações Unidas: conservação e uso sustentável dos oceanos, dos mares e dos recursos marinhos para o desenvolvimento sustentável. Oferecemos uma solução que permite que pescadores, turistas e mergulhadores denunciem a presença de poluição, lixo marinho ou atividades ilegais como pesca predatória.
           </p>
-        </div>
-        <div className='md:w-1/2 p-5 flex flex-wrap justify-center items-center'>
-          <img src={sobreImg} alt="" className='w-3/4 md:w-full max-w-sm rounded-lg mr-4' />
-          <img src={sobreImg2} alt="" className='w-3/4 md:w-full max-w-sm rounded-lg ml-4' />
-          <div className='w-full mt-4'>
-            <iframe
+          <div className='w-full mt-6'>
+          <iframe
               width="100%"
               height="320"
               src="https://www.youtube.com/embed/iYSbJ3_82hA?si=Iwzz8LS4BI-oA5aL"
@@ -27,6 +23,12 @@ const Sobre: React.FC = () => {
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
               className='rounded-lg'
             ></iframe>
+            </div>
+        </div>
+        <div className='md:w-1/2 p-5 flex flex-wrap justify-center items-center'>
+          <img src={sobreImg} alt="" className='w-3/4 md:w-full max-w-sm rounded-lg mr-4' />
+          <img src={sobreImg2} alt="" className='w-3/4 md:w-full max-w-sm rounded-lg ml-4' />
+          <div className='w-full mt-6'>
           </div>
         </div>
       </div>
