@@ -55,21 +55,21 @@ const Sobre: React.FC = () => {
               </p>
               <ul role="list" className=" mt-8 space-y-8 text-gray-600">
                 <li className="flex gap-x-3">
-                  <Trash weight="bold" className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <Trash weight="bold" className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                   <span>
-                    <strong className=" text-gray-900">Encontrou Lixo no mar ou praia ?</strong>Nossa plataforma se diferencia por facilitar o monitoramento em tempo real da saúde dos oceanos: será possível relatar pontos de ação, que serão encontrados com precisão por meio da geolocalização e imagens. 
+                    <strong className=" text-gray-900">Encontrou Lixo no mar ou praia?</strong>Nossa plataforma se diferencia por facilitar o monitoramento em tempo real da saúde dos oceanos: será possível relatar pontos de ação, que serão encontrados com precisão por meio da geolocalização e imagens. 
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <House weight="bold" className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <House weight="bold" className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                   <span>
-                    <strong className=" text-gray-900">Auxiliamos familias</strong> Nosso projeto gera valor para ONGs ambientais, órgãos governamentais e empresas do setor marítimo. De acordo com a Marinha do Brasil, em aproximadamente 8.500 quilômetros de faixa litorânea, concentram-se 80% da população.
+                    <strong className=" text-gray-900">Auxiliamos o comércio local e as famílias:</strong> Nosso projeto gera valor para ONGs ambientais, órgãos governamentais e empresas do setor marítimo. De acordo com a Marinha do Brasil, em aproximadamente 8.500 quilômetros de faixa litorânea, concentram-se 80% da população.
                   </span>
                 </li>
                 <li className="flex gap-x-3">
-                  <AndroidLogo weight="bold" className="mt-1 h-5 w-5 flex-none text-indigo-600" aria-hidden="true" />
+                  <AndroidLogo weight="bold" className="mt-1 h-5 w-5 flex-none text-blue-600" aria-hidden="true" />
                   <span>
-                    <strong className=" text-gray-900">Rápido e gratuito</strong> Encontre ou denuncie uma área com lixo ou poluição de maneira
+                    <strong className=" text-gray-900">Rápido e gratuito:</strong> Encontre ou denuncie uma área com lixo ou poluição de maneira
                     rápida e fácil com apenas alguns cliques.
                   </span>
                 </li>
@@ -81,6 +81,17 @@ const Sobre: React.FC = () => {
               <p className="mt-6">
                 Cada denúncia feita na plataforma Escudo do Mar ajuda a reduzir a poluição marinha. Faça parte da mudança com Escudo do Mar. Denuncie poluição, compartilhe informações e inspire outros a protegerem nossos preciosos recursos marinhos.
               </p>
+              <div className="mt-8">
+                <iframe 
+                  className="w-full rounded-xl" 
+                  height="315" 
+                  src="https://www.youtube.com/embed/rz3hfdk-BSI?si=Rfxedjbej209rd70"
+                  title="YouTube video player" 
+                  frameBorder="0" 
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                  allowFullScreen>
+                </iframe>
+              </div>
             </div>
           </div>
         </div>
