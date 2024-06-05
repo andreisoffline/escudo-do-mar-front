@@ -25,6 +25,9 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <div className="flex justify-center px-4">
+                <h2 className='text-3xl md:text-3xl text-blue-600 font-bold text-left gap-20'>Locais recentes</h2>
+            </div>
             <ListaPostagens />
         </>
     );

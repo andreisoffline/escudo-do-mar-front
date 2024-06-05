@@ -19,7 +19,7 @@ import ListaPostagens from './components/postagens/listaPostagens/ListaPostagens
 import FormularioPostagem from './components/postagens/formularioPostagem/FormularioPostagem';
 import Perfil from './paginas/perfil/Perfil';
 import DeletarPostagem from './components/postagens/deletarPostagem/DeletarPostagem';
-import Sobre from './paginas/sobre/Sobre'; // Importe o componente Sobre
+import Sobre from './paginas/sobre/Sobre';
 
 function App() {
   return (
@@ -43,7 +43,7 @@ function App() {
               <Route path="/editarPostagem/:id" element={<FormularioPostagem />} />
               <Route path="/deletarPostagem/:id" element={<DeletarPostagem />} />
               <Route path="/perfil" element={<Perfil />} />
-              <Route path="/sobre" element={<Sobre />} /> {/* Adicione a rota para Sobre */}
+              <Route path="/sobre" element={<Sobre />} /> 
             </Routes>
           </div>
           <Footer />

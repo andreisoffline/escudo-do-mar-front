@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 
 const KeepAlive: React.FC = () => {
-  const swaggerUrl = 'https://blogpessoal-kp4l.onrender.com/swagger';
+  const swaggerUrl = 'https://escudo-do-mar.onrender.com';
 
   const keepAlive = async () => {
     try {
