@@ -85,7 +85,7 @@ const Sobre: React.FC = () => {
                 <iframe 
                   className="w-full rounded-xl" 
                   height="315" 
-                  src="https://www.youtube.com/embed/rz3hfdk-BSI?si=Rfxedjbej209rd70"
+                  src="https://www.youtube.com/embed/ph0zB_-E7r4?si=qcxI6LWWAdLcuP9K"
                   title="YouTube video player" 
                   frameBorder="0" 
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
