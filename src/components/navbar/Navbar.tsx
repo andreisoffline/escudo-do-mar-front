@@ -88,7 +88,7 @@ export default function Navbar() {
                         to={item.href}
                         className={classNames(
                           item.current ? 'text-white' : 'text-white hover:bg-blue-900 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          'rounded-md px-2 py-2 text-sm font-large'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
@@ -132,7 +132,7 @@ export default function Navbar() {
                         {({ active }) => (
                           <Link
                             to="/perfil"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-blue-200' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Perfil
                           </Link>
@@ -142,7 +142,7 @@ export default function Navbar() {
                         {({ active }) => (
                            <Link
                            to="/sobre"
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-blue-200' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
                             Sobre nós
                             </Link>
@@ -153,9 +153,9 @@ export default function Navbar() {
                           <a
                             href="#"
                             onClick={logout}
-                            className={classNames(active ? 'bg-gray-100' : '', 'block px-4 py-2 text-sm text-gray-700')}
+                            className={classNames(active ? 'bg-blue-200' : '', 'block px-4 py-2 text-sm text-gray-700')}
                           >
-                            Sign out
+                            Sair
                           </a>
                         )}
                       </Menu.Item>
