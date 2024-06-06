@@ -9,8 +9,9 @@ body{
 .fundoLogin {
     background-image: url(../../assets/img/Login.gif);
     background-repeat: no-repeat;
+    width: 100%;
+    width: 106%;
     min-height: 100vh;
-    width: 110%;
     background-size: cover;
     background-position: center;
   }

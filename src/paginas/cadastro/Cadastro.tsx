@@ -67,7 +67,7 @@ function Cadastro() {
       <div className="relative isolate overflow-hidden bg-white h-screen">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-100 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -113,7 +113,7 @@ function Cadastro() {
                 type="text"
                 id="usuario"
                 name="usuario"
-                placeholder="O Email deve ser um email válido."
+                placeholder="Usuario"
                 className="border-2 border-slate-700 rounded p-2"
                 value={usuario.usuario}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -125,7 +125,7 @@ function Cadastro() {
                 type="text"
                 id="foto"
                 name="foto"
-                placeholder="Não é obrigatorio"
+                placeholder="Foto"
                 className="border-2 border-slate-700 rounded p-2"
                 value={usuario.foto}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -137,7 +137,7 @@ function Cadastro() {
                 type="password"
                 id="senha"
                 name="senha"
-                placeholder="A senha precisa conter no mínimo 8 digitos"
+                placeholder="Senha"
                 className="border-2 border-slate-700 rounded p-2"
                 value={usuario.senha}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -159,7 +159,7 @@ function Cadastro() {
               <button className='rounded text-white bg-red-400 hover:bg-red-700 w-1/2 py-2' onClick={back}>
                 Cancelar
               </button>
-              <button className='rounded text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-500  shadow-lg w-1/2 py-2' type='submit'>
+              <button className='rounded text-white bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-500 shadow-lg w-1/2 py-2' type='submit'>
                 Cadastrar
               </button>
             </div>
