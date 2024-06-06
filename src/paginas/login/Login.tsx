@@ -34,7 +34,7 @@ function Login() {
       <div className="relative isolate overflow-hidden bg-white h-screen">
         <div className="absolute inset-0 -z-10 overflow-hidden">
           <svg
-            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+            className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-100 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
             aria-hidden="true"
           >
             <defs>
@@ -85,7 +85,7 @@ function Login() {
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
               />
             </div>
-            <button type="submit" className="rounded bg-gradient-to-r from-blue-500 to-blue-700 shadow-lg text-white w-1/2 py-2 flex justify-center">
+            <button type="submit" className="rounded bg-gradient-to-r from-blue-500 to-blue-700 hover:from-blue-700 hover:to-blue-500 shadow-lg  text-white w-1/2 py-2 flex justify-center">
               {isLoading ? (
                 <RotatingLines
                   strokeColor="white"

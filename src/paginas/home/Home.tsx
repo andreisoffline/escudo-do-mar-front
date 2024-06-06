@@ -11,7 +11,7 @@ function Home() {
             <div className="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-5 lg:overflow-visible lg:px-0">
                 <div className="absolute inset-0 -z-10 overflow-hidden">
                     <svg
-                        className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
+                        className="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-100 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]"
                         aria-hidden="true"
                     >
                         <defs>
@@ -38,7 +38,7 @@ function Home() {
                 <div className="flex justify-center px-4">
                     <div className='container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 items-center py-8'>
                         <div className="flex flex-col gap-4 items-center md:items-start text-center md:text-left">
-                            <h2 className='text-3xl md:text-5xl text-blue-600 font-bold'>Seja bem-vindo!</h2>
+                            <h2 className='text-3xl md:text-5xl text-blue-500 font-bold'>Seja bem-vindo!</h2>
                             <p className='text-lg md:text-xl text-custom-color-p'>
                                 Escudo do Mar é a plataforma onde pescadores, mergulhadores e turistas podem relatar avistamentos de poluição, lixo marinho ou atividades ilegais como pesca predatória. Juntos, podemos monitorar e preservar nossos oceanos!
                             </p>
