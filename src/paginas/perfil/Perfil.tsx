@@ -3,7 +3,8 @@ import { useNavigate } from 'react-router-dom';
 import { AuthContext } from '../../contexts/AuthContext';
 import loginLogo from '../../assets/img/logoPerfil.png';
 import { toastAlerta } from '../../util/toastAlerta';
-import banner from '../../assets/img/oceano.jpg';
+import banner from '../../assets/img/pexels-magda-ehlers-pexels-2832772.jpg';
+import banner2 from '../../assets/img/pexels-andreas-l-2004808-3626111.jpg';
 
 function Perfil() {
   let navigate = useNavigate();
@@ -22,7 +23,7 @@ function Perfil() {
       <img className='w-full h-72 object-cover border-b-8 border-white' src={banner} alt="Capa do Perfil" />
       <img src={loginLogo} alt={`Foto de perfil de ${usuario.nome}`} className='rounded-full w-56 mx-auto mt-[-8rem] border-8 border-white relative z-10' />
       <div className="relative mt-[-6rem] h-72 flex flex-col shadow-lg text-white text-2xl items-center justify-center">
-        <img className='absolute inset-0 w-full h-full object-cover' src={banner} alt="Banner Inferior" />
+        <img className='absolute inset-0 w-full h-full object-cover' src={banner2} alt="Banner Inferior" />
         <div className="relative z-10">
           <p>Nome: {usuario.nome} </p>
           <p>Email: {usuario.usuario}</p>
