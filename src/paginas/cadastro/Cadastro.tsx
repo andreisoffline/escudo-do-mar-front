@@ -113,7 +113,7 @@ function Cadastro() {
                 type="text"
                 id="usuario"
                 name="usuario"
-                placeholder="Usuario"
+                placeholder="Digite um e-mail válido"
                 className="border-2 border-slate-700 rounded p-2"
                 value={usuario.usuario}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -125,7 +125,7 @@ function Cadastro() {
                 type="text"
                 id="foto"
                 name="foto"
-                placeholder="Foto"
+                placeholder="Não obrigatório"
                 className="border-2 border-slate-700 rounded p-2"
                 value={usuario.foto}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -137,7 +137,7 @@ function Cadastro() {
                 type="password"
                 id="senha"
                 name="senha"
-                placeholder="Senha"
+                placeholder="Minímo 8 caracteres"
                 className="border-2 border-slate-700 rounded p-2"
                 value={usuario.senha}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => atualizarEstado(e)}
@@ -149,7 +149,7 @@ function Cadastro() {
                 type="password"
                 id="confirmarSenha"
                 name="confirmarSenha"
-                placeholder="Confirmar Senha"
+                placeholder="Confirmar senha"
                 className="border-2 border-slate-700 rounded p-2"
                 value={confirmaSenha}
                 onChange={(e: ChangeEvent<HTMLInputElement>) => handleConfirmarSenha(e)}
