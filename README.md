@@ -1,1 +1,1 @@
-![Logo do Projeto](/assets/img/Login.gif)
+![Logo do Projeto](../../assets/img/Login.gif)
