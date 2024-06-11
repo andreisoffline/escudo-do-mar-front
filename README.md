@@ -1,7 +1,5 @@
-Escudo do Mar
+<h1>Escudo do Mar 🐋🌊💙</h1> 
 
-![Texto Alternativo](https://www.canva.com/design/DAGHSoVSWYI/69qK3e6NTKt578hOWBesDg/edit)
+Link da documentação: https://drive.google.com/file/d/1HFS_WPNE85lDUSKXiqEd_lUfCL5BTFvF/view
 
-
-
-![Texto Alternativo](https://escudo-do-mar-front.vercel.app/assets/logotipo-E1KZFRWX.png)
+![Logo Escudo do Mar](https://escudo-do-mar-front.vercel.app/assets/logotipo-E1KZFRWX.png)
