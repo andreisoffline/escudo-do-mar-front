@@ -4,4 +4,4 @@ Escudo do Mar
 
 
 
-![Texto Alternativo](https://drive.google.com/drive/u/0/my-drive)
+![Texto Alternativo](https://escudo-do-mar-front.vercel.app/assets/logotipo-E1KZFRWX.png)
